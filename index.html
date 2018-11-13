@@ -49,7 +49,7 @@
  
       <article id="cartao_1" class="cartao">
         <div class="opcoesDoCartao">
-          <button class="opcoesDoCartao-remove opcoesDoCartao-opcao" tabindex="0">
+          <button class="opcoesDoCartao-remove opcoesDoCartao-opcao" tabindex="0" onclick="this.parentNode.parentNode.remove()">
             <svg><use xlink:href="#iconeRemover"></use></svg>
           </button>
 
@@ -131,8 +131,9 @@
         </div>
         <p class="cartao-conteudo" contenteditable tabindex="0">Para mudar o layout, clique no botão linha do cabeçalho</p>
       </article>
-
-    </section>
+﻿
+     </section>
     
+     <script src="js/opcoesDaPagina/btnMudaLayout.js"></script>
   </body>
 </html>
